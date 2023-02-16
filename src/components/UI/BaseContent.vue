@@ -3,7 +3,7 @@
         <div id="hero-content">
           <h1>Mi Pagina de viajes</h1>
           <p>Exploremos el mundo juntos</p>
-          <router-link to="/">Descubri lugares</router-link> 
+          <router-link to="/destinations">Descubri lugares</router-link> 
         </div>
       </section>
       <base-gallery></base-gallery>
@@ -65,7 +65,7 @@ export default {
   text-decoration: none;
   background-color: rgb(255, 251, 0);
   padding: 12px 24px;
-  color: black;
+  color: rgb(68, 68, 68);
   font-size: 20px;
   font-weight: bold;
   border-radius: 8px;

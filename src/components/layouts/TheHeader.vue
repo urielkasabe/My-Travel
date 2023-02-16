@@ -1,18 +1,29 @@
 <template>
 <header>
       <div id="page-logo">
-    <a href="">Mi Viaje</a>
+    <router-link to="/">Mi Viaje</router-link>
   </div>
   <nav>
     <ul>
-      <li><a href="places.html">Destinos</a></li>
-      <li><a href="">Sobre mi</a></li>
+      <li><router-link to="/destinations">Destinos</router-link></li>
+      <li><router-link to="/">Sobre mi</router-link></li>
     </ul>
   </nav>
 </header>
 </template>
 
+<script>
+export default {
+  methods: {
+    HeaderPosition() {
+      
+    }
+  }
+}
+</script>
+
 <style scoped>
+
 
 header {
   display: flex;
@@ -37,15 +48,18 @@ header {
   background-color: transparent;
 }
 
-header ul {
+header ul,
+.active ul {
   display: flex;
 }
 
-header li {
+header li,
+.active li {
   margin-left: 20px;
 }
 
-header a {
+header a,
+.active a {
   text-decoration: none;
   color: rgb(255, 251, 0);
   font-size: 20px;
@@ -54,7 +68,8 @@ header a {
   border-radius: 8px;
 }
 
-header a:hover {
+header a:hover,
+.active a:hover {
   color: rgb(77, 77, 77);
   background-color: rgb(255, 251, 0);
 }
