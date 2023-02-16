@@ -1,0 +1,87 @@
+<template>
+     <section id="highlights">
+        <h2>Favoritos</h2>
+        <ul id="destinations">
+          <li class="destin">
+            <img :src="napoli" alt="Napoli's golf" />
+            <p>Napoli <strong>Italia</strong></p>
+          </li>
+          <li class="destin">
+            <img :src="Buenos" alt="City of Buenos Aires" />
+            <p>Buenos Aires <strong>Argentina</strong></p>
+          </li>
+          <li class="destin">
+            <img
+              :src="Larnaca"
+              alt="Marina of Larnaca"
+            />
+            <p>Larnaca <strong>Cyprus</strong></p>
+          </li>
+        </ul>
+      </section>
+</template>
+
+<script>
+import Napoli from '../../../images/places/Napoli.jpg';
+import BsAs from '../../../images/places/Buenos-Aires.jpg';
+import Larnaca from '../../../images/places/Larnaca-Marina.jpg';
+
+export default {
+    data() {
+      return {
+        napoli: Napoli,
+        Buenos: BsAs,
+        Larnaca: Larnaca
+      };
+    }
+}
+</script>
+
+<style scoped>
+#highlights {
+  background: linear-gradient(0deg, rgb(130, 83, 49), rgb(2, 1, 0));
+  padding: 30px 0;
+}
+
+#highlights h2 {
+  text-align: center;
+  color: rgb(169, 140, 7);
+  text-transform: uppercase;
+  font-size: 32px;
+  margin: 25px 0;
+}
+
+#destinations {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.destin {
+  margin: 0 20px;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.destin img {
+  height: 200px;
+  width: 100%;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.destin p {
+  text-align: center;
+  font-size: 22px;
+  color: rgb(172, 168, 168);
+  margin: 20px 0;
+}
+
+.destin strong {
+  color:  rgb(169, 140, 7);
+}
+
+</style>
