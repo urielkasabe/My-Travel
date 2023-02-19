@@ -33,18 +33,19 @@ export default {
 footer {
   /* background: linear-gradient(80deg, rgb(23, 23, 23), rgb(25, 29, 29)); */
   background: linear-gradient(80deg, rgb(60, 37, 20), rgb(55, 28, 1));
+  bottom: 100%;
 }
 
 .Footer-social {
   display: flex;
   justify-content: center;
-  padding: 25px;
+  padding: 1.563rem;
 }
 
 footer li {
-  width: 50px;
-  height: 50px;
-  padding: 0 100px;
+  width: 3.125rem;
+  height: 3.125rem;
+  padding: 0 6.25rem;
 }
 
 footer img {
@@ -58,5 +59,11 @@ footer p {
   padding: 1rem 0 1rem 0;
   margin: 0 auto;
   color: white;
+}
+
+@media (max-width: 48rem) {
+  footer li {
+    padding: 0 1rem;
+  }
 }
 </style>

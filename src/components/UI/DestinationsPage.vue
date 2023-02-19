@@ -19,7 +19,7 @@
           </p>
         </div>
         <div class="actions">
-          <a :href="dest.link">Explore &#x2192;</a>
+          <a :href="dest.link">Explorar &#x2192;</a>
         </div>
       </div>
     </li>
@@ -97,11 +97,10 @@ export default {
 <style>
 body {
   background: linear-gradient(160deg, rgb(130, 83, 49), rgb(2, 1, 0));
-  color: rgb(68, 68, 68);
 }
 
 .dest {
-  width: 1200px;
+  width: 90%;
   margin: 2rem auto 2rem auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -114,22 +113,22 @@ body {
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   overflow: hidden;
-  width: 35rem;
+  width: 100%;
 }
 
 .list-dest:nth-of-type(1),
 .list-dest:nth-of-type(2) {
-margin-top: 6rem;
+  margin-top: 6rem;
 }
 
 .imagen {
-  width: 320px;
+  width: 50%;
   height: auto;
   object-fit: cover;
 }
 
 .item-content {
-  padding: 24px;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -142,13 +141,32 @@ margin-top: 6rem;
 .actions a {
   text-decoration: none;
   color: rgb(255, 251, 0);
-  padding: 6px;
+  padding: 0.375rem;
   border-radius: 5px;
 }
 
 .actions a:hover {
   color: rgb(77, 77, 77);
   background-color: rgb(255, 251, 0);
-  padding: 6px;
+  padding: 0.375rem;
+}
+
+@media (max-width: 48rem) {
+  .dest {
+    grid-template-columns: 100%;
+  }
+  
+  .list-dest {
+    display: inline;
+  }
+
+  .list-dest:nth-of-type(2) {
+    margin-top: 0;
+  }
+
+  .imagen {
+    width: 100%;
+
+  }
 }
 </style>
