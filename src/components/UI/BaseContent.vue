@@ -24,7 +24,7 @@ export default {
 <style scoped>
 #hero {
   height: 50rem;
-  background-image: url("../../images/places/travel.jpg");
+  background-image: url("https://cdn.pixabay.com/photo/2016/01/09/18/27/camera-1130731_960_720.jpg");
   background-position: center;
   background-size: cover;
 }
