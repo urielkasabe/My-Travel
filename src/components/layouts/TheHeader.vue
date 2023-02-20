@@ -1,7 +1,7 @@
 <template>
   <header>
     <div id="page-logo">
-      <router-link to="/">Mi Viaje</router-link>
+      <router-link to="/">My Travel</router-link>
     </div>
     <nav>
       <ul>
