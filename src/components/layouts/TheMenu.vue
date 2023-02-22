@@ -2,11 +2,11 @@
   <aside>
     <nav>
       <ul>
-        <li><router-link to="/">Principal</router-link></li>
-        <li><router-link to="/destinations">Destinos</router-link></li>
+        <li><router-link to="/">Home page</router-link></li>
+        <li><router-link to="/destinations">Destinations</router-link></li>
         <li>
           <button class="dropdown-btn" @click="toggleIsClicked">
-            Encuentra Vuelos
+            Search flights
           </button>
           <div class="dropdown-container" v-if="isCliccked">
             <a href="https://www.skyscanner.com/">SkyScanner</a>

@@ -19,7 +19,7 @@
           </p>
         </div>
         <div class="actions">
-          <a :href="dest.link">Explorar &#x2192;</a>
+          <a :href="dest.link">Explore &#x2192;</a>
         </div>
       </div>
     </li>
@@ -43,10 +43,10 @@ export default {
         {
           id: "NAP",
           img: Napoli,
-          name: "Napoli",
+          name: "Naples",
           desc: "Naples, a city in southern Italy, sits on the Bay of Naples. Nearby is Mount Vesuvius, the still-active volcano that destroyed nearby Roman town Pompeii. Dating to the 2nd millennium B.C., Naples has centuries of important art and architecture.",
           link: "https://en.wikipedia.org/wiki/Naples",
-          alt: "Ciudad de Napoles",
+          alt: "City of Naples",
         },
         {
           id: "BS",
@@ -54,7 +54,7 @@ export default {
           name: "Buenos Aires",
           desc: "Buenos Aires is Argentina’s big, cosmopolitan capital city. Its center is the Plaza de Mayo, lined with stately 19th-century buildings including Casa Rosada, the iconic, balconied presidential palace.",
           link: "https://en.wikipedia.org/wiki/Buenos_Aires",
-          alt: "ciudad de Buenos Aires, Argentina",
+          alt: "City of Buenos Aires, Argentina",
         },
         {
           id: "LAR",
@@ -70,7 +70,7 @@ export default {
           name: "Kefalonia",
           desc: "Kefalonia is an island in the Ionian Sea, west of mainland Greece. It's marked by sandy coves and dry rugged landscapes. Its capital, Argostoli, is built on a hillside overlooking a narrow harbor.",
           link: "https://en.wikipedia.org/wiki/Cephalonia",
-          alt: "Kefalonia, Grecia",
+          alt: "Kefalonia, Greece",
         },
         {
           id: "Berlin",
@@ -78,7 +78,7 @@ export default {
           name: "Berlin",
           desc: "Berlin, Germany’s capital, dates to the 13th century. Reminders of the city's turbulent 20th-century history include its Holocaust memorial and the Berlin Wall's graffitied remains.",
           link: "https://en.wikipedia.org/wiki/Berlin",
-          alt: "Berlin, Alemania",
+          alt: "Berlin, Germany",
         },
         {
           id: "Sinai",
@@ -86,7 +86,7 @@ export default {
           name: "Sinai",
           desc: "Egypt’s Sinai Peninsula is a sparsely populated desert region between the Red Sea and the Mediterranean Sea. On its southern tip, Sharm el-Sheikh resort is a base for diving and snorkeling around the reefs of Ras Mohammed National Park. ",
           link: "https://en.wikipedia.org/wiki/Sinai_Peninsula",
-          alt: "Sinai, Egipto",
+          alt: "Sinai, Egypt",
         },
       ],
     };

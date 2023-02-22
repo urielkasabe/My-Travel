@@ -7,7 +7,7 @@
 </template>
 
 <script>
-
+export default {};
 </script>
 
 <style scoped>
@@ -30,7 +30,7 @@
 aside {
   width: 100%;
   height: 100%;
-  background: linear-gradient(0deg, rgb(130, 83, 49), rgb(2, 1, 0));;
+  background: linear-gradient(0deg, rgb(130, 83, 49), rgb(2, 1, 0));
   position: fixed;
   top: 0;
   left: 0;
@@ -39,7 +39,7 @@ aside {
 
 nav {
   height: 100%;
-  width: 100%
+  width: 100%;
 }
 
 ul {
@@ -55,12 +55,12 @@ a {
   text-align: center;
   margin: 0 auto;
   text-decoration: none;
- color: yellow;
+  color: yellow;
 }
 
 @media (min-width: 48rem) {
-    .menu-btn {
-        display: none;
-    }
+  .menu-btn {
+    display: none;
+  }
 }
 </style>

@@ -1,9 +1,9 @@
 <template>
        <section id="hero">
         <div id="hero-content">
-          <h1>Mi Pagina de viajes</h1>
-          <p>Exploremos el mundo juntos</p>
-          <router-link to="/destinations">Descubri lugares</router-link> 
+          <h1>My Travel Page</h1>
+          <p>Let's explore the world together</p>
+          <router-link to="/destinations">Discover</router-link> 
         </div>
       </section>
       <base-gallery></base-gallery>
@@ -17,7 +17,7 @@ export default {
   components: {
     BaseGallery
   },
-
+  
 }
 </script>
 

@@ -1,10 +1,10 @@
 <template>
      <section id="highlights">
-        <h2>Favoritos</h2>
+        <h2>Highlights</h2>
         <ul id="destinations">
           <li class="destin">
             <img :src="napoli" alt="Napoli's golf" />
-            <p>Napoli <strong>Italia</strong></p>
+            <p>Naples <strong>Italy</strong></p>
           </li>
           <li class="destin">
             <img :src="Buenos" alt="City of Buenos Aires" />
