@@ -19,7 +19,7 @@ import facebook from "../../../images/icons/facebook.png";
 export default {
   data() {
     return {
-      ph: "Copyright Jaime Uriel Kasabe",
+      ph: "Created by Uriel Kasabe",
       instagram: instagram,
       facebook: facebook,
       igLink: "https://www.instagram.com/",
