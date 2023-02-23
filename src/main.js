@@ -23,7 +23,8 @@ const router = createRouter({
         { path: '/', redirect: '/homepage' },
         { path: '/homepage', component:  BaseContent },
         { path: '/destinations', component: DestinationsPage },
-        { path: '/menu', component: TheMenu }
+        { path: '/menu', component: TheMenu },
+        { path: '/:notFound(.*)', redirect: '/homepage' }
     ],
     linkActiveClass: 'active',
 });
