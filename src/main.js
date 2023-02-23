@@ -24,7 +24,7 @@ const router = createRouter({
         { path: '/homepage', component:  BaseContent },
         { path: '/destinations', component: DestinationsPage },
         { path: '/menu', component: TheMenu },
-        { path: '/:notFound(.*)', redirect: '/homepage' }
+        { path: '/:notfound(.*)', redirect: '/homepage' }
     ],
     linkActiveClass: 'active',
 });
